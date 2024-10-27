@@ -7,7 +7,7 @@ const rateInfo = document.querySelector(".rate-info");
 
 // funkcja przeliczająca waluty
 const calculate = () => {
-	const $apiKey = "fbbc85793d80542d5c517493886f36c2";
+	const $apiKey = "6080f8922ce8bbeb125afd7135617b0e";
 
 	fetch(
 		`https://api.exchangeratesapi.io/v1/latest?access_key=${$apiKey}&from=${currencyOne.value}&to=${currencyTwo.value}`
